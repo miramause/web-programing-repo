@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    color: #9a067f;
+}
+
+p {
+    color: #49073a;
+
+}
+
+div h2 {
+    color: #49073a;
+    text-align: center;
+    border: 1px solid #000000;
+    margin: auto;
+    width: 4em;
+}
+
+div p {
+    position: absolute; 
+    padding: 0 10px 0 10px;
+    transform: translate(0, -50%); 
+    top: 50%; 
+}
+
+.row {
+    display: grid;
+}
+
+.department{
+    position: relative;
+    background-color: #ff94fd;
+    height: 170px;
+    margin: 0 10px 20px 10px;
+}
+
+.N_depart {
+    display: grid;
+    justify-content: end;
+
+}
+
+#Teddy {
+    background-color: #16ca70;
+}
+
+#Doll {
+    background-color: #0890f9;
+}
+
+#Car {
+    background-color: #c3f546;
+}
+
+/* Large devices */
+@media (min-width: 993px) {
+
+    .department {
+        border: 3px solid #000000;
+    }
+
+    .row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .department {
+        border: 3px solid #000000;
+    }
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #Three {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+/* Small devices */
+@media (max-width: 768px) {
+
+    .department {
+        border: 3px solid #000000;
+    }
+
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
