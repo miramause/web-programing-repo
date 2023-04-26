@@ -1,0 +1,40 @@
+
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#itlc {
+    font-style: italic;
+}
+ul li:nth-child(odd) {
+    background-color: #8a8888;
+}
+ol li :nth-child(4)
+{
+    background-color: #8007eb;
+}
+ol li :nth-child(5):hover
+{
+    background-color: #e62c95;
+    color: #eee8f4;
+    cursor: pointer;
+}
+ol li :nth-child(3):hover
+{
+    background-color: #e62c95;
+    color: #eee8f4;
+    cursor: pointer;
+}
+@media (min-width: 993px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div{
+        flex: 2;
+    }
+    
+}

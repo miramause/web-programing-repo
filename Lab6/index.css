@@ -1,0 +1,66 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+p {
+    font-size: 120%;  
+}
+
+#first:link {
+    color: #3518db
+}
+#first:visited {
+    color: #66246b
+}
+#second:link {
+    color: #dd1818
+}
+#second:visited {
+    color: #aa246b
+}
+#third:link {
+    color: #b206c2;
+}
+#third:visited {
+    color: #cb0260
+}
+#four:link {
+    color: #2a9c05;
+}
+#four:visited {
+    color: #4e6456
+}   
+
+@media (min-width: 993px) {
+    .row {
+        margin: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .row {
+        margin: 60px 60px 60px 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 30px;
+
+    }
+   div a{
+        flex: 50%;
+       
+    }
+}
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+       
+        flex-wrap: wrap;
+        row-gap: 30px;
+        margin-left: 30px;
+    }
+    div a{
+        flex: 100%;
+    }
+}
