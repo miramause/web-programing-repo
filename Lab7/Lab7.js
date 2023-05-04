@@ -222,6 +222,3 @@ function triangle(value1, type1, value2, type2)
         }
     }
 }
-
-triangle(2,"hypotenuse", 50,"angle");
-//triangle(50,"angle",2,"hypotenuse");
