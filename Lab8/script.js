@@ -1,4 +1,4 @@
-(function task_1() {
+(function() {
   console.log("Завдання 1:")
   console.log("Якщо ім’я починається з літери j або J, то застосунок виводить Goodbye JSomeName, інакше – Hello SomeName.");
  
@@ -26,7 +26,7 @@
 
 console.log("\n\n");
 
-(function task_2() {
+(function() {
   console.log("Завдання 2:")
   console.log("Знайти суму ASCII-кодів літер імен та порівняння її значення із порогом - 365.");
  
