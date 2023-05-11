@@ -15,14 +15,15 @@
   {
     if (names[i].charAt(0) === "J" || names[i].toLowerCase().charAt(0) === "j") 
     {
-      Bye(names[i]);
+      Bye2.Bye(names[i]);
     } 
     else 
     {
-      Hello(names[i]);
+      Hello2.Hello(names[i]);
     }
   }
 })();
+
 
 console.log("\n\n");
 
@@ -54,14 +55,14 @@ console.log("\n\n");
     {
       console.log("----------------------");
       console.log("сума: "+ Names_Summ);
-      Bye(Names[j]);
+      Bye2.Bye(Names[j]);
       console.log("----------------------");
     } 
     else 
     {
       console.log("----------------------");
       console.log("сума: "+ Names_Summ);
-      Hello(Names[j]);
+      Hello2.Hello(Names[j]);
       console.log("----------------------");
     }
 }
