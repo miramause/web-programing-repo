@@ -1,5 +1,5 @@
 var Hello2 ={};
-Hello2.speakWord  = "Good Bye";
+Hello2.speakWord  = "Hello";
 
 Hello2.Hello = function (name) 
 {
