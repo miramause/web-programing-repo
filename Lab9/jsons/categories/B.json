@@ -3,7 +3,7 @@
     {
       "id": 11,
       "short_name": "B-1",
-      "name": "Item B1",
+      "name": "B1",
       "description": "Product",
       "price_retail": 0,
       "price_wholesale": 0,
@@ -23,7 +23,7 @@
     {
       "id": 13,
       "short_name": "B-1",
-      "name": "Item B3",
+      "name": "B3",
       "description": "Product",
       "price_retail": 0,
       "price_wholesale": 0,
@@ -33,7 +33,7 @@
     {
       "id": 14,
       "short_name": "B-1",
-      "name": "Item B4",
+      "name": "B4",
       "description": "Product",
       "price_retail": 0,
       "price_wholesale": 0,
