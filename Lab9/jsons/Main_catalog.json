@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "short_name": "A",
+    "name": "Category A",
+    "special_instructions": "Information about",
+    "url": "jsons/categories/A/A.json"
+  },
+  {
+    "id": 2,
+    "short_name": "B",
+    "name": "Category B",
+    "special_instructions": "Information about",
+    "url": "jsons/categories/B/B.json"
+  },
+  {
+    "id": 3,
+    "short_name": "C",
+    "name": "Category C",
+    "special_instructions": "Information about",
+    "url": "jsons/categories/C/C.json"
+  },
+  {
+    "id": 4,
+    "short_name": "D",
+    "name": "Category D",
+    "special_instructions": "Information about",
+    "url": "jsons/categories/D/D.json"
+  }
+]
