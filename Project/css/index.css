@@ -10,16 +10,16 @@
   font-size: 28px;
 }
 .A:link {
-  text-decoration: none;
-  background-color: rgb(91, 150, 91);
-  font-size: 30px;
-  color: white;
-  border: 2px solid rgb(91, 150, 91);
-  display: block;
-  width: 150px;
-  height: 40px;
-  text-align: center;
-  margin-bottom: 5px;
+   text-decoration:none;
+    background-color: rgb(91, 150, 91);
+    font-size: 30px;
+    color: white;
+    border: 2px solid rgb(91, 150, 91);
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 .A:visited {
   background-color: rgb(91, 150, 91);
